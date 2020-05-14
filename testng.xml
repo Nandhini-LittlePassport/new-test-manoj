@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Make my trip">
+<test name="1.0 realease">
+<groups>
+<run>
+<include name="smoke"/>
+</run>
+</groups>
+<classes>
+<class name="Automation.TestingAnnotationExample"/>
+<class name="Automation.BoookingModule"/>
+</classes>
+</test>
+
+</suite>
